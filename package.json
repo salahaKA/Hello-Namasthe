@@ -1,0 +1,26 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "Namste react by Akshay Saini",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salahaKA/Hello-Namasthe.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "salaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salahaKA/Hello-Namasthe/issues"
+  },
+  "homepage": "https://github.com/salahaKA/Hello-Namasthe#readme",
+  "dependencies": {
+    "parcel": "^2.16.3"
+  }
+}
