@@ -35,11 +35,20 @@ const TitleComponent = () => {
   );
 };
 
+const name = "Salaa";
+const msg = "Good Moning!";
+const JSXElement = <h1> {msg} HEllo JSX Element!</h1>;
+// const Api= ''
+// const data = Api.getData(); // This API giving some results
 const HeadingComponent = () => {
   return (
     <>
       <TitleComponent />
-      <h1>Hello React Functional Component</h1>
+      <TitleComponent></TitleComponent>
+      {/* CAn also called functional coponent as function inside{} */}
+      {TitleComponent()}
+      <h1>Hello {name}🤗</h1>
+      {JSXElement}
     </>
   );
 };

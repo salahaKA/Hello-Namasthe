@@ -58,3 +58,6 @@ React FUnctional Component
 - Normal JS fumction wic return piece of JSX. And can reuse anywhere. Also we can call other component iside.
 - JSX can Nested also
 - Wecan use component inside component=> Component combosition: Like Header, Nav, Footer and Title inside Main Component
+  -We can also put React element inside React Component
+- We can also use JS elements iside JSX by using {}, elps dynaming UI by passing props as variable
+- Prevents cross side scripting, avoid rendering maliciousdata from API
