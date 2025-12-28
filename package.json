@@ -2,9 +2,9 @@
   "name": "namasthe-react",
   "version": "1.0.0",
   "description": "Namste react by Akshay Saini",
-  
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/salahaKA/Hello-Namasthe#readme",
   "dependencies": {
-    "parcel": "^2.16.3"
+    "parcel": "^2.16.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }
