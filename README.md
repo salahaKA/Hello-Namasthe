@@ -1,6 +1,7 @@
 <!-- Namste React -->
 
 <!-- Parcel -->
+
 - Dev Build
 - Local SErver
 - HMR - Hot MODULE Replacement
@@ -11,7 +12,7 @@
 - Bundle: Mundlers are make execution faster
 - Minified
 - Compressing
-- Consistent Hashing - 
+- Consistent Hashing -
 - Code splitting
 - Differential Bundling
 - Tree Shing Algo
@@ -22,3 +23,24 @@
 - HTTPS
 
 - Diff dev and production bundles
+
+<!-- Short NOte -->
+
+- Whenever we write code for developers, we need to use framework like AntD or MUI for developer friendly and clean and humon redable
+
+- JS Engine cannot understand React code.It can understand Ecmascript JS. => Parcel doing this all tings before going to JS Engine it will transpiled(Encrypted) from JSX to React code , and React rendered in HTML DOM element. => Parcel doing this with babel package inside parcel.
+
+Parcel + Babel Job
+JSX code -> React element (done by babel) -> HTML DOM Element (Done by ReactDOM) => ten JS engine can understand becauseit has DOM
+
+JSX and HTML are different.
+In JSX the attribute name are all written in camelCase and the class is className.
+
+H>W
+How to add Img, Anchor etc tag in JSX and their properties
+
+If JSX in multiple line, We have to wrap it inside ()
+
+Formate Extension GOood in React => Prettier and Bracket Pair Colorization Toggler
+
+Others-> ES Lint,Better Comment
