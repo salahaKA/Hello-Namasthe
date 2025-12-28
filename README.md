@@ -26,6 +26,8 @@
 
 <!-- Short NOte -->
 
+<!-- React Element -->
+
 - Whenever we write code for developers, we need to use framework like AntD or MUI for developer friendly and clean and humon redable
 
 - JS Engine cannot understand React code.It can understand Ecmascript JS. => Parcel doing this all tings before going to JS Engine it will transpiled(Encrypted) from JSX to React code , and React rendered in HTML DOM element. => Parcel doing this with babel package inside parcel.
@@ -44,3 +46,15 @@ If JSX in multiple line, We have to wrap it inside ()
 Formate Extension GOood in React => Prettier and Bracket Pair Colorization Toggler
 
 Others-> ES Lint,Better Comment
+
+<!-- REACT Components -->
+
+Everything in React is a Components
+tERE ARE TWO TYPE OF cOMPONENTS IN REACT => cLASSBASED COMPONENTS AND fUNCTIONAL BASED COMPONENTS
+There are two type of components in React => Class based (OLD) and Funtional based (NEW) component.
+
+React FUnctional Component
+
+- Normal JS fumction wic return piece of JSX. And can reuse anywhere. Also we can call other component iside.
+- JSX can Nested also
+- Wecan use component inside component=> Component combosition: Like Header, Nav, Footer and Title inside Main Component
