@@ -1,5 +1,7 @@
 <!-- Namste React -->
 
+CDN -Content Delivery Network
+
 <!-- Parcel -->
 
 - Dev Build
@@ -61,3 +63,5 @@ React FUnctional Component
   -We can also put React element inside React Component
 - We can also use JS elements iside JSX by using {}, elps dynaming UI by passing props as variable
 - Prevents cross side scripting, avoid rendering maliciousdata from API
+
+<!-- PART 1 -->
